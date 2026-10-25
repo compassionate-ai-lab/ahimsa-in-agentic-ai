@@ -1,4 +1,4 @@
-# Ahimsa in Agentic AI: companion code
+# Ahimsa in Agentic AI: Algorithmic Non-Violence - companion code
 
 <img src="images/ahimsa-in-agentic-ai-cover.jpeg" alt="Cover of Ahimsa in Agentic AI: Algorithmic Non-Violence and the Architecture of Compassionate Code by Dr. Sri Amit Ray" width="240" align="right">
 
