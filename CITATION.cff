@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the book."
+title: "Ahimsa in Agentic AI: companion programs"
+authors:
+  - family-names: Ray
+    given-names: Sri Amit
+version: "1.0.0"
+date-released: 2026-10-25
+license: MIT
+repository-code: "https://github.com/compassionate-ai-lab/ahimsa-in-agentic-ai"
+preferred-citation:
+  type: book
+  title: "Ahimsa in Agentic AI: Algorithmic Non-Violence and the Architecture of Compassionate Code"
+  authors:
+    - family-names: Ray
+      given-names: Sri Amit
+  publisher:
+    name: "Compassionate AI Lab"
+  year: 2026
+  isbn: "978-81-69641-29-6"
