@@ -4,9 +4,21 @@
 
 Companion programs for the book **Ahimsa in Agentic AI: Algorithmic Non-Violence and the Architecture of Compassionate Code** by Dr. Sri Amit Ray ([Compassionate AI Lab](https://amitray.com/compassionate-ai-lab/), 2026; ISBN 978-81-69641-29-6 (First Edition, 2026)).
 
-### Why AI agents need Ahimsa
+### Why AI Agents Need Ahimsa
 
-A chatbot that gives a bad answer can be corrected by the person reading it. An AI agent that sends the message, moves the money, changes the record or commands the device has already acted. Agentic systems plan over many steps, call tools, run without a human checking each step, and work alongside other agents, so one unchecked error compounds into the next, and harm can arrive through delay, exclusion or neglect as well as through direct injury. Today's usual safeguards were built for systems that only answer: they penalize harm inside an objective (a large enough reward can still buy it back), average it into a single score (a severe harm to one dimension or one person is hidden by gains elsewhere), or filter outputs after the plan is made. **Ahimsa** — non-injury, the principle of not causing harm — gives agents the rule they lack: severe, preventable harm is not a cost to be traded off; it is outside the set of things the system may do.
+Ahimsa—the principle of non-injury—provides an ethical foundation for governing an AI agent's power to act. It makes the prevention of severe, foreseeable and preventable harm a condition of permissible action. It asks the system to consider who could suffer, whose needs might be overlooked, and whether pursuing a goal could endanger someone through action, delay or neglect.
+
+Imagine an older woman living alone with an AI assistant that manages her home, communications and daily support. One evening, she says, "I am exhausted. Please make sure nobody disturbs me." The assistant silences notifications, redirects calls and postpones a scheduled check-in. Each decision appears to follow her request. But if she becomes unwell during the night, those same decisions could delay the help she needs.
+
+The deeper safety question begins before any emergency: How should an agent honor a person's wishes while preserving their ability to receive essential help? A responsible assistant must understand the limits of an instruction, distinguish ordinary interruptions from important safeguards, and seek clarification before making consequential changes. Ahimsa directs attention to the person's wellbeing, dignity and freedom throughout that process.
+
+This requirement becomes more demanding as agents gain memory, learn new behaviors, control physical systems and delegate to other agents. A household assistant may coordinate with a care service, a transport agent and a building controller. Their combined decisions can create dangers that none of them recognizes alone. Future safety therefore depends on examining how actions interact and how risks change over time.
+
+Ahimsa must shape the architecture of these systems: the authority they receive, the plans they accept, the safeguards they preserve, and the circumstances in which they pause or involve a person. It must also guide recovery when something goes wrong.
+
+The more power we give AI agents to shape human lives, the more deeply the protection of those lives must be built into their decisions.
+
+*In the book:* harm through action, delay and neglect, and the harm of inaction (Chapter 1); memory, delegation and the drift toward autonomy (Chapter 2); the uncertainty default to hold, ask or escalate (Postulate 2, Chapter 4); authority and responsibility (Chapter 8); protection floors (Chapter 9); the gate that checks authority, consent and current evidence before acting (Chapter 10); harm that emerges between agents (Chapter 11); drift, breakers and safe resumption (Chapter 12); embodied systems (Chapter 14); remedy when harm occurs (Chapter 15).
 
 ### What the book provides
 
