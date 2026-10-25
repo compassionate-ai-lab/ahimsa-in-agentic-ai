@@ -4,7 +4,23 @@
 
 Companion programs for the book **Ahimsa in Agentic AI: Algorithmic Non-Violence and the Architecture of Compassionate Code** by Dr. Sri Amit Ray ([Compassionate AI Lab](https://amitray.com/compassionate-ai-lab/), 2026; ISBN 978-81-69641-29-6 (First Edition, 2026)).
 
-[The book](https://amitray.com/ahimsa-in-agentic-ai-ebook/) develops Algorithmic Ahimsa: severe, preventable harm placed outside the set of actions an autonomous agent may execute, by design rather than by penalty. It turns the principle of non-injury into harm vectors and ceilings, vulnerability-weighted evaluation, protection floors that no average can buy away, and an Action-Filter Layer that every consequential path must cross. This repository holds the program behind every worked example in the book, the reference simulation of the individual-agent execution gate in Appendix D, and the tests that check both.
+### Why AI agents need Ahimsa
+
+A chatbot that gives a bad answer can be corrected by the person reading it. An AI agent that sends the message, moves the money, changes the record or commands the device has already acted. Agentic systems plan over many steps, call tools, run without a human checking each step, and work alongside other agents, so one unchecked error compounds into the next, and harm can arrive through delay, exclusion or neglect as well as through direct injury. Today's usual safeguards were built for systems that only answer: they penalize harm inside an objective (a large enough reward can still buy it back), average it into a single score (a severe harm to one dimension or one person is hidden by gains elsewhere), or filter outputs after the plan is made. **Ahimsa** — non-injury, the principle of not causing harm — gives agents the rule they lack: severe, preventable harm is not a cost to be traded off; it is outside the set of things the system may do.
+
+### What the book provides
+
+[*Ahimsa in Agentic AI*](https://amitray.com/ahimsa-in-agentic-ai-ebook/) turns that principle into **Algorithmic Ahimsa**, an engineering discipline for agents that act:
+
+- **Three postulates of algorithmic non-violence**: Universal Safety (no action whose severe-harm vector exceeds its thresholds), Active De-escalation (ambiguity and uncertainty default to safe, state-preserving or human-escalating actions), and Harm Minimization under Conflict (reducing severe harm strictly dominates task efficiency, which is optimized only inside the non-harm feasible set).
+- **A mathematics of harm**: harm vectors with a ceiling on every dimension (physical, psychological, rights, integrity), vulnerability weights, uncertainty margins, time-decayed totals over a plan, and the harm of inaction.
+- **The Compassionate AI Architecture (CAIA)**: seven scores with three protection floors (equity and protection of the vulnerable, planetary compassion, future generations) that no weighting can buy away.
+- **An Action-Filter Layer**: typed actions checked for authority, consent, current evidence and every ceiling before execution, with permit, reformulate and escalate dispositions, circuit breakers and safe degradation.
+- **Application and governance**: healthcare, robotics, logistics and finance case studies; responsibility ledgers, audit metrics, near-miss bands and maturity levels.
+
+### How it delivers it
+
+Every worked number in the book is produced by the program in this repository and checked by its tests, so the reader can rerun, change and extend each example rather than take it on trust. Appendix D follows one administrative agent through a complete decision and failure cycle, and `safety_runtime.py` implements that execution gate as a reference simulation with 39 acceptance tests: typed actions, ceilings, consent, evidence age and version, expiring authorizations bound to an intent digest, and idempotent commit.
 
 ## Run it
 
